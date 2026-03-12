@@ -13,7 +13,7 @@ public class KthElementFinderTest {
 
     @Test
     public void testFindKthSmallest() {
-        int[] nums = {7, 10, 4, 3, 20, 15};
+        int[] nums = {7, 10, 4, 3, 20 // TODO: Consider extracting as named constant, 15 // TODO: Consider extracting as named constant};
         assertEquals(7, KthElementFinder.findKthSmallest(nums, 3));
     }
 }

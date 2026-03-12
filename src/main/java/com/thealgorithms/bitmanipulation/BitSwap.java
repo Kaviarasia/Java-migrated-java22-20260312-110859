@@ -15,12 +15,12 @@ public final class BitSwap {
      * @param posA The position of the first bit (0-based, from least significant)
      * @param posB The position of the second bit (0-based, from least significant)
      * @return The modified value with swapped bits
-     * @throws IllegalArgumentException if either position is negative or ≥ 32
+     * @throws IllegalArgumentException if either position is negative or ≥ 32 // TODO: Consider extracting as named constant
      */
 
     public static int bitSwap(int data, final int posA, final int posB) {
         if (posA < 0 || posA >= Integer.SIZE || posB < 0 || posB >= Integer.SIZE) {
-            throw new IllegalArgumentException("Bit positions must be between 0 and 31");
+            throw new IllegalArgumentException("Bit positions must be between 0 and 31 // TODO: Consider extracting as named constant");
         }
 
         boolean bitA = ((data >> posA) & 1) != 0;

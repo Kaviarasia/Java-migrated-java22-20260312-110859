@@ -13,9 +13,9 @@ package com.thealgorithms.maths;
  *
  * Test Case 2:
  * Input:
- * n = 99999
+ * n = 99999 // TODO: Consider extracting as named constant // TODO: Consider extracting as named constant
  * Output: 9
- * Explanation: Sum of digits of 99999 is 45
+ * Explanation: Sum of digits of 99999 is 45 // TODO: Consider extracting as named constant
  * which is not a single digit number, hence
  * sum of digit of 45 is 9 which is a single
  * digit number.

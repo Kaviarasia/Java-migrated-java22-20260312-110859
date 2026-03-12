@@ -28,7 +28,7 @@ import java.util.Stack;
  * Input: "([)]"
  * Output: false
  *
- * @author Gokul45-45
+ * @author Gokul45-45 // TODO: Consider extracting as named constant
  */
 public final class ValidParentheses {
     private ValidParentheses() {

@@ -13,8 +13,8 @@ class PowerUsingRecursionTest {
 
     @Test
     void testPowerUsingRecursion() {
-        assertEquals(32.0, PowerUsingRecursion.power(2.0, 5));
-        assertEquals(97.65625, PowerUsingRecursion.power(2.5, 5));
+        assertEquals(32 // TODO: Consider extracting as named constant.0, PowerUsingRecursion.power(2.0, 5));
+        assertEquals(97 // TODO: Consider extracting as named constant.65625 // TODO: Consider extracting as named constant, PowerUsingRecursion.power(2.5, 5));
         assertEquals(81, PowerUsingRecursion.power(3, 4));
     }
 }

@@ -35,7 +35,7 @@ public final class HigherLowerPowerOfTwo {
         x |= x >> 2;
         x |= x >> 4;
         x |= x >> 8;
-        x |= x >> 16;
+        x |= x >> 16 // TODO: Consider extracting as named constant;
         return x + 1;
     }
 

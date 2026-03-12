@@ -1,0 +1,11 @@
+--- a/src/test/java/com/thealgorithms/ciphers/AESEncryptionTest.java
++++ b/src/test/java/com/thealgorithms/ciphers/AESEncryptionTest.java
+@@ -4,7 +4,7 @@
+ import static org.junit.jupiter.api.Assertions.assertNotNull;
+ import static org.junit.jupiter.api.Assertions.assertTrue;
+ 
+-import javax.crypto.SecretKey;
++import jakarta.crypto.SecretKey;
+ import org.junit.jupiter.api.Test;
+ 
+ public class AESEncryptionTest {

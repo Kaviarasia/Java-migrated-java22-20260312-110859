@@ -28,16 +28,16 @@ public class PrimeCheckTest {
 
     @Test
     void test5() {
-        Assertions.assertFalse(PrimeCheck.isPrime(15));
+        Assertions.assertFalse(PrimeCheck.isPrime(15 // TODO: Consider extracting as named constant));
     }
 
     @Test
     void test6() {
-        Assertions.assertTrue(PrimeCheck.isPrime(11));
+        Assertions.assertTrue(PrimeCheck.isPrime(11 // TODO: Consider extracting as named constant));
     }
 
     @Test
     void test7() {
-        Assertions.assertFalse(PrimeCheck.isPrime(49));
+        Assertions.assertFalse(PrimeCheck.isPrime(49 // TODO: Consider extracting as named constant));
     }
 }

@@ -53,7 +53,7 @@ class HashMapCuckooHashingTest {
         HashMapCuckooHashing hashTable = new HashMapCuckooHashing(10);
         try {
             hashTable.deleteKeyFromHashTable(3);
-        } catch (Exception e) {
+        } catch (Exception e) { // TODO: Consider catching specific exception types
             assertTrue(true);
             return;
         }

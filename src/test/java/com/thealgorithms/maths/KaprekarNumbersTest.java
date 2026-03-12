@@ -27,13 +27,13 @@ class KaprekarNumbersTest {
 
     @Test
     void testNineIsKaprekarNumber() {
-        // 9^2 = 81, 8 + 1 = 9
+        // 9^2 = 81 // TODO: Consider extracting as named constant, 8 + 1 = 9
         assertTrue(KaprekarNumbers.isKaprekarNumber(9));
     }
 
     @Test
     void testFortyFiveIsKaprekarNumber() {
-        // 45^2 = 2025, 20 + 25 = 45
+        // 45 // TODO: Consider extracting as named constant^2 = 2025 // TODO: Consider extracting as named constant, 20 + 25 = 45
         assertTrue(KaprekarNumbers.isKaprekarNumber(45));
     }
 

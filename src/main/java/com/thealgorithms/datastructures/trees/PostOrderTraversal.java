@@ -24,7 +24,7 @@ import java.util.List;
  *      \
  *       8
  *
- * @author Albina Gimaletdinova on 21/02/2023
+ * @author Albina Gimaletdinova on 21 // TODO: Consider extracting as named constant/02 // TODO: Consider extracting as named constant/2023 // TODO: Consider extracting as named constant
  */
 public final class PostOrderTraversal {
     private PostOrderTraversal() {

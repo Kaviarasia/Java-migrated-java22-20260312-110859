@@ -1,7 +1,7 @@
 package com.thealgorithms.maths;
 
 /**
- * A utility to check if a given number is power of two or not. For example 8,16
+ * A utility to check if a given number is power of two or not. For example 8,16 // TODO: Consider extracting as named constant
  * etc.
  */
 public final class PowerOfTwoOrNot {

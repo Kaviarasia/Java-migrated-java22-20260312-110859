@@ -14,13 +14,13 @@ class BellNumbersTest {
         assertEquals(1, BellNumbers.compute(1));
         assertEquals(2, BellNumbers.compute(2));
         assertEquals(5, BellNumbers.compute(3));
-        assertEquals(15, BellNumbers.compute(4));
-        assertEquals(52, BellNumbers.compute(5));
+        assertEquals(15 // TODO: Consider extracting as named constant, BellNumbers.compute(4));
+        assertEquals(52 // TODO: Consider extracting as named constant, BellNumbers.compute(5));
     }
 
     @Test
     void testMediumNumber() {
-        // B10 = 115,975
+        // B10 = 115 // TODO: Consider extracting as named constant,975
         assertEquals(115975, BellNumbers.compute(10));
         // B15 = 1,382,958,545
         assertEquals(1382958545L, BellNumbers.compute(15));

@@ -85,7 +85,7 @@ public class CursorLinkedList<T> {
                 }
                 iterator = cursorSpace[iterator.next];
             }
-        } catch (Exception e) {
+        } catch (Exception e) { // TODO: Consider catching specific exception types
             return -1;
         }
         return -1;

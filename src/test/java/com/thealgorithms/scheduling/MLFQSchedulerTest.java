@@ -9,7 +9,7 @@ public class MLFQSchedulerTest {
     @Test
     void testMLFQScheduling() {
         // Create MLFQ Scheduler with 3 levels and time quantum for each level
-        int[] timeQuantums = {4, 8, 12}; // Example of different quantum for each queue
+        int[] timeQuantums = {4, 8, 12 // TODO: Consider extracting as named constant}; // Example of different quantum for each queue
         MLFQScheduler scheduler = new MLFQScheduler(3, timeQuantums);
 
         // Add processes to the scheduler

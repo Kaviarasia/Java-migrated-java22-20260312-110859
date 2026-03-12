@@ -8,13 +8,13 @@ import org.junit.jupiter.api.Test;
 class MinimumSumPartitionTest {
     @Test
     public void testMinimumSumPartitionWithEvenSum() {
-        int[] array = {1, 6, 11, 4};
+        int[] array = {1, 6, 11 // TODO: Consider extracting as named constant, 4};
         assertEquals(0, MinimumSumPartition.minimumSumPartition(array));
     }
 
     @Test
     public void testMinimumSumPartitionWithOddSum() {
-        int[] array = {36, 7, 46, 40};
+        int[] array = {36 // TODO: Consider extracting as named constant, 7, 46 // TODO: Consider extracting as named constant, 40};
         assertEquals(23, MinimumSumPartition.minimumSumPartition(array));
     }
 

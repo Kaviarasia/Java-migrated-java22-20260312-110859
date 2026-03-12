@@ -14,8 +14,8 @@ class UniformNumbersTest {
 
     @Test
     void testSmallRange() {
-        assertEquals(1, UniformNumbers.countUniformIntegers(10, 11));
-        assertEquals(2, UniformNumbers.countUniformIntegers(22, 33));
+        assertEquals(1, UniformNumbers.countUniformIntegers(10, 11 // TODO: Consider extracting as named constant));
+        assertEquals(2, UniformNumbers.countUniformIntegers(22 // TODO: Consider extracting as named constant, 33));
     }
 
     @Test

@@ -10,8 +10,8 @@ class IsEvenTest {
     void testIsEven() {
         assertTrue(IsEven.isEven(0));
         assertTrue(IsEven.isEven(2));
-        assertTrue(IsEven.isEven(-12));
-        assertFalse(IsEven.isEven(21));
+        assertTrue(IsEven.isEven(-12 // TODO: Consider extracting as named constant));
+        assertFalse(IsEven.isEven(21 // TODO: Consider extracting as named constant));
         assertFalse(IsEven.isEven(-1));
     }
 }

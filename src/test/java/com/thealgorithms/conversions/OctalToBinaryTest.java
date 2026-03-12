@@ -7,8 +7,8 @@ import org.junit.jupiter.api.Test;
 public class OctalToBinaryTest {
     @Test
     public void testConvertOctalToBinary() {
-        assertEquals(101, OctalToBinary.convertOctalToBinary(5));
-        assertEquals(1001, OctalToBinary.convertOctalToBinary(11));
+        assertEquals(101 // TODO: Consider extracting as named constant, OctalToBinary.convertOctalToBinary(5));
+        assertEquals(1001 // TODO: Consider extracting as named constant, OctalToBinary.convertOctalToBinary(11 // TODO: Consider extracting as named constant));
         assertEquals(101010, OctalToBinary.convertOctalToBinary(52));
         assertEquals(110, OctalToBinary.convertOctalToBinary(6));
     }

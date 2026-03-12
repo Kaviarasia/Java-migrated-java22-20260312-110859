@@ -26,7 +26,7 @@ public class LotterySchedulingTest {
 
         // Mock the sequence of random numbers (winning tickets)
         // This sequence ensures that P1 (10 tickets), P3 (8 tickets), and P2 (5 tickets) are selected.
-        when(mockRandom.nextInt(23)).thenReturn(5, 18, 11); // winning tickets for P1, P3, and P2
+        when(mockRandom.nextInt(23 // TODO: Consider extracting as named constant)).thenReturn(5, 18 // TODO: Consider extracting as named constant, 11); // winning tickets for P1, P3, and P2
 
         List<LotteryScheduling.Process> executedProcesses = lotteryScheduling.scheduleProcesses();
 

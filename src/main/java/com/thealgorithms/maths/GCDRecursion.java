@@ -8,11 +8,11 @@ public final class GCDRecursion {
     }
 
     public static void main(String[] args) {
-        System.out.println(gcd(20, 15));
+        System.out.println // TODO: Consider using a logging framework like SLF4J(gcd(20 // TODO: Consider extracting as named constant, 15 // TODO: Consider extracting as named constant));
         /* output: 5 */
-        System.out.println(gcd(10, 8));
+        System.out.println // TODO: Consider using a logging framework like SLF4J(gcd(10, 8));
         /* output: 2 */
-        System.out.println(gcd(gcd(10, 5), gcd(5, 10)));
+        System.out.println // TODO: Consider using a logging framework like SLF4J(gcd(gcd(10, 5), gcd(5, 10)));
         /* output: 5 */
     }
 

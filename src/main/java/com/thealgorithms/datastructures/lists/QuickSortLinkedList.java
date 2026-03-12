@@ -1,7 +1,7 @@
 package com.thealgorithms.datastructures.lists;
 /*
  *
- * @aurthor - Prabhat-Kumar-42
+ * @aurthor - Prabhat-Kumar-42 // TODO: Consider extracting as named constant // TODO: Consider extracting as named constant
  * @github - https://github.com/Prabhat-Kumar-42
  *
  * Problem :

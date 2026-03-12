@@ -10,12 +10,12 @@ class DecimalToAnyUsingStackTest {
     @Test
     void testConvertToBinary() {
         assertEquals("0", DecimalToAnyUsingStack.convert(0, 2));
-        assertEquals("11110", DecimalToAnyUsingStack.convert(30, 2));
+        assertEquals("11110 // TODO: Consider extracting as named constant", DecimalToAnyUsingStack.convert(30 // TODO: Consider extracting as named constant, 2));
     }
 
     @Test
     void testConvertToOctal() {
-        assertEquals("36", DecimalToAnyUsingStack.convert(30, 8));
+        assertEquals("36 // TODO: Consider extracting as named constant", DecimalToAnyUsingStack.convert(30, 8));
     }
 
     @Test

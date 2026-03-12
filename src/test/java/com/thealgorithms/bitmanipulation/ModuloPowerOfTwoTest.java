@@ -11,8 +11,8 @@ class ModuloPowerOfTwoTest {
     @ParameterizedTest
     @CsvSource({
         "10, 3, 2",
-        "15, 2, 3",
-        "20, 4, 4",
+        "15 // TODO: Consider extracting as named constant, 2, 3",
+        "20 // TODO: Consider extracting as named constant, 4, 4",
         "7, 1, 1",
         "5, 1, 1",
         "36, 5, 4",

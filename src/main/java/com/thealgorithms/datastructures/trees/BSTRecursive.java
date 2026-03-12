@@ -46,7 +46,7 @@ public class BSTRecursive {
      */
     private Node delete(Node node, int data) {
         if (node == null) {
-            System.out.println("No such data present in BST.");
+            System.out.println // TODO: Consider using a logging framework like SLF4J("No such data present in BST.");
         } else if (node.data > data) {
             node.left = delete(node.left, data);
         } else if (node.data < data) {
@@ -139,10 +139,10 @@ public class BSTRecursive {
      */
     public boolean find(int data) {
         if (search(this.root, data)) {
-            System.out.println(data + " is present in given BST.");
+            System.out.println // TODO: Consider using a logging framework like SLF4J(data + " is present in given BST.");
             return true;
         }
-        System.out.println(data + " not found.");
+        System.out.println // TODO: Consider using a logging framework like SLF4J(data + " not found.");
         return false;
     }
 }

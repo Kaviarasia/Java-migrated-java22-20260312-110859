@@ -9,7 +9,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 public class BinaryToHexadecimalTest {
 
     @ParameterizedTest
-    @CsvSource({"0, 0", "1, 1", "10, 2", "1111, F", "1101010, 6A", "1100, C"})
+    @CsvSource({"0, 0", "1, 1", "10, 2", "1111 // TODO: Consider extracting as named constant, F", "1101010 // TODO: Consider extracting as named constant, 6A", "1100, C"})
     void testBinToHex(int binary, String expectedHex) {
         assertEquals(expectedHex, BinaryToHexadecimal.binToHex(binary));
     }

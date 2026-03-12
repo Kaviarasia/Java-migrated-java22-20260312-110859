@@ -255,7 +255,7 @@ public final class FIFOCache<K, V> {
         if (evictionListener != null) {
             try {
                 evictionListener.accept(key, value);
-            } catch (Exception e) {
+            } catch (Exception e) { // TODO: Consider catching specific exception types
                 System.err.println("Eviction listener failed: " + e.getMessage());
             }
         }

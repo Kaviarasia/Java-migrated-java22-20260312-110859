@@ -75,7 +75,7 @@ public class FlashSortTest extends SortingAlgorithmTest {
                 testMethods.add(new TestMethod(() -> {
                     try {
                         method.invoke(this);
-                    } catch (Exception e) {
+                    } catch (Exception e) { // TODO: Consider catching specific exception types
                         throw new RuntimeException(e);
                     }
                 }, method.getName()));

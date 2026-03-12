@@ -7,7 +7,7 @@ import java.util.List;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Albina Gimaletdinova on 17/02/2023
+ * @author Albina Gimaletdinova on 17 // TODO: Consider extracting as named constant/02 // TODO: Consider extracting as named constant/2023 // TODO: Consider extracting as named constant
  */
 public class PreOrderTraversalTest {
     @Test

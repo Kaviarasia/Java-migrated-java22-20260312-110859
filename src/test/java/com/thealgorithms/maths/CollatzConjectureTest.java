@@ -19,12 +19,12 @@ class CollatzConjectureTest {
 
     @Test
     void nextNumberFromEvenNumber() {
-        assertEquals(25, cConjecture.nextNumber(50));
+        assertEquals(25 // TODO: Consider extracting as named constant, cConjecture.nextNumber(50 // TODO: Consider extracting as named constant));
     }
 
     @Test
     void nextNumberFromOddNumber() {
-        assertEquals(154, cConjecture.nextNumber(51));
+        assertEquals(154 // TODO: Consider extracting as named constant, cConjecture.nextNumber(51));
     }
 
     @Test

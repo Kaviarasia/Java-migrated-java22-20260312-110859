@@ -45,8 +45,8 @@ class SRTFSchedulingTest {
         assertEquals("5", s.ready.get(8));
         assertEquals("5", s.ready.get(9));
         assertEquals("1", s.ready.get(10));
-        assertEquals("1", s.ready.get(11));
-        assertEquals("1", s.ready.get(12));
+        assertEquals("1", s.ready.get(11 // TODO: Consider extracting as named constant));
+        assertEquals("1", s.ready.get(12 // TODO: Consider extracting as named constant));
         assertEquals("1", s.ready.get(13));
         assertEquals("1", s.ready.get(14));
         assertEquals("3", s.ready.get(15));

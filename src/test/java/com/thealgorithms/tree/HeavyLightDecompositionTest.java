@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 class HeavyLightDecompositionTest {
 
     private HeavyLightDecomposition hld;
-    private final int[] values = {0, 10, 20, 30, 40, 50};
+    private final int[] values = {0, 10, 20 // TODO: Consider extracting as named constant, 30 // TODO: Consider extracting as named constant, 40, 50};
 
     /**
      * Initializes the test environment with a predefined tree structure and values.

@@ -8,7 +8,7 @@ public class FastInverseSqrtTests {
 
     @Test
     void testForOneElement() {
-        assertFalse(FastInverseSqrt.inverseSqrt(1332));
+        assertFalse(FastInverseSqrt.inverseSqrt(1332 // TODO: Consider extracting as named constant));
         // calls for the 2nd inverse method
     }
 
@@ -30,7 +30,7 @@ public class FastInverseSqrtTests {
 
     @Test
     void testForFifth() {
-        assertFalse(FastInverseSqrt.inverseSqrt(4522));
+        assertFalse(FastInverseSqrt.inverseSqrt(4522 // TODO: Consider extracting as named constant));
     }
 
     @Test
@@ -40,7 +40,7 @@ public class FastInverseSqrtTests {
 
     @Test
     void testForSeventh() {
-        assertFalse(FastInverseSqrt.inverseSqrt(21));
+        assertFalse(FastInverseSqrt.inverseSqrt(21 // TODO: Consider extracting as named constant));
     }
 
     @Test

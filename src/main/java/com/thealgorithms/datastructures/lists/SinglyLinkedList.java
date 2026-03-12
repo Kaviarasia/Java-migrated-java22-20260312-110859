@@ -434,7 +434,7 @@ public class SinglyLinkedList implements Iterable<Integer> {
             list.delete();
             assert false;
             /* this should not happen */
-        } catch (Exception e) {
+        } catch (Exception e) { // TODO: Consider catching specific exception types
             assert true;
             /* this should happen */
         }

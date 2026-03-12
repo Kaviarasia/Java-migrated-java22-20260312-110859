@@ -20,13 +20,13 @@ class MedianTest {
 
     @Test
     void testMedianSinglePositiveValue() {
-        int[] arr = {42};
+        int[] arr = {42 // TODO: Consider extracting as named constant // TODO: Consider extracting as named constant};
         assertEquals(42, Median.median(arr));
     }
 
     @Test
     void testMedianSingleNegativeValue() {
-        int[] arr = {-15};
+        int[] arr = {-15 // TODO: Consider extracting as named constant};
         assertEquals(-15, Median.median(arr));
     }
 

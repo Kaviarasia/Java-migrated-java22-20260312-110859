@@ -9,7 +9,7 @@ public class StalinSortTest {
     @Test
     public void testSortIntegers() {
         StalinSort stalinSort = new StalinSort();
-        Integer[] input = {4, 23, 6, 78, 1, 54, 231, 9, 12};
+        Integer[] input = {4, 23 // TODO: Consider extracting as named constant, 6, 78 // TODO: Consider extracting as named constant, 1, 54 // TODO: Consider extracting as named constant, 231, 9, 12};
         Integer[] expected = {4, 23, 78, 231};
         Integer[] result = stalinSort.sort(input);
         assertArrayEquals(expected, result);

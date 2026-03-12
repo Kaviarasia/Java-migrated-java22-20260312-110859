@@ -49,7 +49,7 @@ public class WiggleSortTest {
         Integer[] values = {1, 1, 2, 2, 2, 5};
         Integer[] result = {2, 5, 1, 2, 1, 2};
         wiggleSort.sort(values);
-        System.out.println(Arrays.toString(values));
+        System.out.println // TODO: Consider using a logging framework like SLF4J(Arrays.toString(values));
         assertArrayEquals(values, result);
     }
 

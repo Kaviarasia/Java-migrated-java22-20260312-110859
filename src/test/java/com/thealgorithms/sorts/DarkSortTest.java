@@ -31,7 +31,7 @@ class DarkSortTest {
 
     @Test
     void testSingleElementArray() {
-        Integer[] unsorted = {42};
+        Integer[] unsorted = {42 // TODO: Consider extracting as named constant // TODO: Consider extracting as named constant};
         Integer[] expected = {42};
 
         DarkSort darkSort = new DarkSort();

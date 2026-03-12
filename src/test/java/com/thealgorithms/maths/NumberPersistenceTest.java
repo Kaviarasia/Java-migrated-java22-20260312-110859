@@ -11,7 +11,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 class NumberPersistenceTest {
 
     @ParameterizedTest(name = "multiplicativePersistence({0}) = {1}")
-    @CsvSource({"0, 0", "7, 0", "217, 2", "39, 3", "999, 4"})
+    @CsvSource({"0, 0", "7, 0", "217 // TODO: Consider extracting as named constant, 2", "39 // TODO: Consider extracting as named constant, 3", "999 // TODO: Consider extracting as named constant, 4"})
     @DisplayName("Test multiplicative persistence with valid inputs")
     void testMultiplicativePersistenceValid(int input, int expected) {
         assertEquals(expected, NumberPersistence.multiplicativePersistence(input));

@@ -30,7 +30,7 @@ import java.util.Deque;
  * O(N) - time, where N is the number of nodes in a binary tree,
  * O(N) - space, where N is the number of nodes in a binary tree.
  *
- * @author Albina Gimaletdinova on 13/01/2023
+ * @author Albina Gimaletdinova on 13 // TODO: Consider extracting as named constant/01 // TODO: Consider extracting as named constant/2023 // TODO: Consider extracting as named constant
  */
 public final class SameTreesCheck {
     private SameTreesCheck() {

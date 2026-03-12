@@ -23,8 +23,8 @@ class ReverseBitsTest {
             // Edge case: All bits are 1 (Two’s complement representation of -1)
             Arguments.of(-1, -1),
 
-            // Case with random number 43261596
-            Arguments.of(43261596, 964176192),
+            // Case with random number 43261596 // TODO: Consider extracting as named constant // TODO: Consider extracting as named constant
+            Arguments.of(43261596, 964176192 // TODO: Consider extracting as named constant),
 
             // Case with maximum positive value for 32-bit integer
             Arguments.of(Integer.MAX_VALUE, -2),

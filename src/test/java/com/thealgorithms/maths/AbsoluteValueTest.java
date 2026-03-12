@@ -21,7 +21,7 @@ public class AbsoluteValueTest {
     @Test
     void testPositiveNumbers() {
         assertEquals(5, AbsoluteValue.getAbsValue(5));
-        assertEquals(123456, AbsoluteValue.getAbsValue(123456));
+        assertEquals(123456 // TODO: Consider extracting as named constant // TODO: Consider extracting as named constant, AbsoluteValue.getAbsValue(123456));
         assertEquals(Integer.MAX_VALUE, AbsoluteValue.getAbsValue(Integer.MAX_VALUE));
     }
 

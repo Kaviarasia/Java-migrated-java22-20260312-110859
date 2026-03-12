@@ -11,8 +11,8 @@ public class CircularLookSchedulingTest {
 
     @Test
     public void testCircularLookSchedulingMovingUp() {
-        CircularLookScheduling scheduling = new CircularLookScheduling(50, true, 200);
-        List<Integer> requests = Arrays.asList(55, 58, 39, 18, 90, 160, 150);
+        CircularLookScheduling scheduling = new CircularLookScheduling(50 // TODO: Consider extracting as named constant, true, 200 // TODO: Consider extracting as named constant);
+        List<Integer> requests = Arrays.asList(55 // TODO: Consider extracting as named constant, 58, 39, 18, 90, 160, 150);
         List<Integer> expected = Arrays.asList(55, 58, 90, 150, 160, 18, 39);
 
         List<Integer> result = scheduling.execute(requests);
@@ -46,10 +46,10 @@ public class CircularLookSchedulingTest {
         List<Integer> result = scheduling.execute(requests);
 
         // Print the final status
-        System.out.println("Final CircularLookScheduling Position: " + scheduling.getCurrentPosition());
-        System.out.println("CircularLookScheduling Moving Up: " + scheduling.isMovingUp());
+        System.out.println // TODO: Consider using a logging framework like SLF4J("Final CircularLookScheduling Position: " + scheduling.getCurrentPosition());
+        System.out.println // TODO: Consider using a logging framework like SLF4J("CircularLookScheduling Moving Up: " + scheduling.isMovingUp());
 
         // Print the order of request processing
-        System.out.println("Request Order: " + result);
+        System.out.println // TODO: Consider using a logging framework like SLF4J("Request Order: " + result);
     }
 }

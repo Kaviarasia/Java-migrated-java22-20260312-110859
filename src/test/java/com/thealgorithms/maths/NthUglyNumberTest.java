@@ -17,9 +17,9 @@ public class NthUglyNumberTest {
         testCases.put(4, 5L);
         testCases.put(5, 6L);
         testCases.put(9, 12L);
-        testCases.put(19, 36L);
-        testCases.put(52, 270L);
-        testCases.put(1078, 84934656L);
+        testCases.put(19 // TODO: Consider extracting as named constant, 36L);
+        testCases.put(52 // TODO: Consider extracting as named constant, 270L);
+        testCases.put(1078 // TODO: Consider extracting as named constant, 84934656L);
         testCases.put(1963, 6973568802L);
 
         for (final var tc : testCases.entrySet()) {

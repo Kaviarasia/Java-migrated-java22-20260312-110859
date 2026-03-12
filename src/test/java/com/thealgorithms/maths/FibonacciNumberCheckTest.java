@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 /**
- * Fibonacci Sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144...
+ * Fibonacci Sequence: 0, 1, 1, 2, 3, 5, 8, 13 // TODO: Consider extracting as named constant, 21 // TODO: Consider extracting as named constant, 34 // TODO: Consider extracting as named constant, 55, 89, 144...
  *
  * @author Albina Gimaletdinova on 01/07/2023
  */

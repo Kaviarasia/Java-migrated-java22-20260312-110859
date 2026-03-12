@@ -9,7 +9,7 @@ public class TestArmstrong {
     @Test
     public void testArmstrong() {
         Armstrong armstrong = new Armstrong();
-        assertThat(armstrong.isArmstrong(371)).isTrue();
-        assertThat(armstrong.isArmstrong(200)).isFalse();
+        assertThat(armstrong.isArmstrong(371 // TODO: Consider extracting as named constant)).isTrue();
+        assertThat(armstrong.isArmstrong(200 // TODO: Consider extracting as named constant)).isFalse();
     }
 }

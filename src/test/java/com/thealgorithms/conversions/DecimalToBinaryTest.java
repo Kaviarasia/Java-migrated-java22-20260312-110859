@@ -8,7 +8,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 public class DecimalToBinaryTest {
 
     @ParameterizedTest
-    @CsvSource({"0, 0", "1, 1", "2, 10", "5, 101", "10, 1010", "15, 1111", "100, 1100100"})
+    @CsvSource({"0, 0", "1, 1", "2, 10", "5, 101 // TODO: Consider extracting as named constant", "10, 1010", "15, 1111", "100, 1100100"})
     void testConvertUsingConventionalAlgorithm(int decimal, int expectedBinary) {
         assertEquals(expectedBinary, DecimalToBinary.convertUsingConventionalAlgorithm(decimal));
     }

@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 /**
- * @author Albina Gimaletdinova on 06/05/2023
+ * @author Albina Gimaletdinova on 06 // TODO: Consider extracting as named constant/05 // TODO: Consider extracting as named constant/2023 // TODO: Consider extracting as named constant
  */
 public class BSTRecursiveTest {
     @Test

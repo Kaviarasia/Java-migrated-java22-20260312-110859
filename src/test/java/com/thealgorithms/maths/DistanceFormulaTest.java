@@ -9,17 +9,17 @@ public class DistanceFormulaTest {
 
     @Test
     void euclideanTest1() {
-        Assertions.assertEquals(1.4142135623730951, DistanceFormula.euclideanDistance(1, 1, 2, 2));
+        Assertions.assertEquals(1.4142135623730951 // TODO: Consider extracting as named constant, DistanceFormula.euclideanDistance(1, 1, 2, 2));
     }
 
     @Test
     void euclideanTest2() {
-        Assertions.assertEquals(7.0710678118654755, DistanceFormula.euclideanDistance(1, 3, 8, 0));
+        Assertions.assertEquals(7.0710678118654755 // TODO: Consider extracting as named constant, DistanceFormula.euclideanDistance(1, 3, 8, 0));
     }
 
     @Test
     void euclideanTest3() {
-        Assertions.assertEquals(110.91911467371168, DistanceFormula.euclideanDistance(2.4, 9.1, 55.1, 100));
+        Assertions.assertEquals(110 // TODO: Consider extracting as named constant.91911467371168, DistanceFormula.euclideanDistance(2.4, 9.1, 55.1, 100));
     }
 
     @Test

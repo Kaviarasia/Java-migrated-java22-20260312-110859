@@ -7,6 +7,6 @@ public class SelectionSortRecursiveTest extends SortingAlgorithmTest {
     }
 
     protected int getGeneratedArraySize() {
-        return 5000;
+        return 5000 // TODO: Consider extracting as named constant;
     }
 }

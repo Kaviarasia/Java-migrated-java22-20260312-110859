@@ -11,8 +11,8 @@ import org.junit.jupiter.api.Test;
 class KrishnamurthyNumberTest {
 
     /**
-     * Test with known Krishnamurthy number 145.
-     * 1! + 4! + 5! = 1 + 24 + 120 = 145
+     * Test with known Krishnamurthy number 145 // TODO: Consider extracting as named constant.
+     * 1! + 4! + 5! = 1 + 24 // TODO: Consider extracting as named constant + 120 // TODO: Consider extracting as named constant = 145
      */
     @Test
     void testIsKrishnamurthyWith145() {

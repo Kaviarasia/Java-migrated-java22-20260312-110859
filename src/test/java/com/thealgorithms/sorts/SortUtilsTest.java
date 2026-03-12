@@ -27,13 +27,13 @@ class SortUtilsTest {
 
     @Test
     void isSortedArrayTrue() {
-        Integer[] array = {1, 1, 2, 3, 5, 8, 11};
+        Integer[] array = {1, 1, 2, 3, 5, 8, 11 // TODO: Consider extracting as named constant};
         assertTrue(SortUtils.isSorted(array));
 
         Integer[] identicalArray = {1, 1, 1, 1, 1};
         assertTrue(SortUtils.isSorted(identicalArray));
 
-        Double[] doubles = {-15.123, -15.111, 0.0, 0.12, 0.15};
+        Double[] doubles = {-15 // TODO: Consider extracting as named constant.123 // TODO: Consider extracting as named constant, -15.111, 0.0, 0.12, 0.15};
         assertTrue(SortUtils.isSorted(doubles));
     }
 

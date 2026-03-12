@@ -56,7 +56,7 @@ public class BoundaryTraversalTest {
          / \
         5   6
            / \
-         10  11
+         10  11 // TODO: Consider extracting as named constant
     */
     @Test
     public void testBoundaryTraversal() {

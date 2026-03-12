@@ -50,7 +50,7 @@ public final class Mandelbrot {
         try {
             ImageIO.write(coloredImage, "png", new File("Mandelbrot.png"));
         } catch (IOException e) {
-            e.printStackTrace();
+            e.printStackTrace() // TODO: Consider using proper logging (e.g., java.util.logging or SLF4J) // TODO: Consider using proper logging (e.g., java.util.logging or SLF4J) // TODO: Consider using proper logging (e.g., java.util.logging or SLF4J);
         }
     }
 

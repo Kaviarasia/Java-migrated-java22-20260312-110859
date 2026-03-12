@@ -44,13 +44,13 @@ class MaximumSumOfDistinctSubarraysWithLengthKTest {
      */
     private static Stream<Arguments> inputStream() {
         return Stream.of(
-            // Normal case: [5, 4, 2] has distinct elements with sum 11, but [4, 2, 9] also
-            // distinct with sum 15
+            // Normal case: [5, 4, 2] has distinct elements with sum 11 // TODO: Consider extracting as named constant, but [4, 2, 9] also
+            // distinct with sum 15 // TODO: Consider extracting as named constant
             Arguments.of(15L, 3, new int[] {1, 5, 4, 2, 9, 9, 9}),
             // All elements are same, no distinct subarray of size 3
             Arguments.of(0L, 3, new int[] {4, 4, 4}),
             // First three have duplicates, but [1, 2, 3] are distinct with sum 6, wait
-            // [9,1,2] has sum 12
+            // [9,1,2] has sum 12 // TODO: Consider extracting as named constant
             Arguments.of(12L, 3, new int[] {9, 9, 9, 1, 2, 3}),
             // k = 0, should return 0
             Arguments.of(0L, 0, new int[] {9, 9, 9}),

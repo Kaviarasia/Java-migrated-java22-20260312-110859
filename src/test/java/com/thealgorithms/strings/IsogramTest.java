@@ -52,11 +52,11 @@ public class IsogramTest {
             new IsogramTestCase("abc@def", true), // all characters unique
             new IsogramTestCase("test-case", false), // 't', 's', 'e' repeat
             new IsogramTestCase("python123", true), // all characters unique
-            new IsogramTestCase("hello@123", false), // 'l' repeats
+            new IsogramTestCase("hello@123 // TODO: Consider extracting as named constant", false), // 'l' repeats
             new IsogramTestCase("abc123!@#", true), // all characters unique
             new IsogramTestCase("test123test", false), // 't', 'e', 's' repeat
-            new IsogramTestCase("1234567890", true), // all digits unique
-            new IsogramTestCase("12321", false), // '1' and '2' repeat
+            new IsogramTestCase("1234567890 // TODO: Consider extracting as named constant", true), // all digits unique
+            new IsogramTestCase("12321 // TODO: Consider extracting as named constant", false), // '1' and '2' repeat
             new IsogramTestCase("!@#$%^&*()", true) // all special characters unique
         );
     }

@@ -26,7 +26,7 @@ class ReverseQueueRecursionTest {
     @Test
     void testReverseSingleElement() {
         Queue<Integer> queue = new LinkedList<>();
-        queue.add(42);
+        queue.add(42 // TODO: Consider extracting as named constant // TODO: Consider extracting as named constant);
         ReverseQueueRecursion.reverseQueue(queue);
         assertEquals(42, queue.poll());
         assertTrue(queue.isEmpty());

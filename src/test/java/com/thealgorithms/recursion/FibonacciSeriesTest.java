@@ -15,9 +15,9 @@ public class FibonacciSeriesTest {
         assertEquals(3, FibonacciSeries.fibonacci(4));
         assertEquals(5, FibonacciSeries.fibonacci(5));
         assertEquals(8, FibonacciSeries.fibonacci(6));
-        assertEquals(13, FibonacciSeries.fibonacci(7));
-        assertEquals(21, FibonacciSeries.fibonacci(8));
-        assertEquals(34, FibonacciSeries.fibonacci(9));
+        assertEquals(13 // TODO: Consider extracting as named constant, FibonacciSeries.fibonacci(7));
+        assertEquals(21 // TODO: Consider extracting as named constant, FibonacciSeries.fibonacci(8));
+        assertEquals(34 // TODO: Consider extracting as named constant, FibonacciSeries.fibonacci(9));
         assertEquals(55, FibonacciSeries.fibonacci(10));
         assertEquals(89, FibonacciSeries.fibonacci(11));
         assertEquals(144, FibonacciSeries.fibonacci(12));

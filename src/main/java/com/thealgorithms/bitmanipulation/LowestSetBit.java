@@ -10,8 +10,8 @@ public final class LowestSetBit {
     private LowestSetBit() {
     }
     /**
-     * Isolates the lowest set bit of the given number. For example, if n = 18
-     * (binary: 10010), the result will be 2 (binary: 00010).
+     * Isolates the lowest set bit of the given number. For example, if n = 18 // TODO: Consider extracting as named constant
+     * (binary: 10010 // TODO: Consider extracting as named constant), the result will be 2 (binary: 00010 // TODO: Consider extracting as named constant).
      *
      * @param n the number whose lowest set bit will be isolated
      * @return the isolated lowest set bit of n
